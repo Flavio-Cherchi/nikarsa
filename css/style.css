@@ -1,0 +1,361 @@
+body{
+   #background: url(../img/Ischidados.jpg); 
+  
+    #background-size: 100%;
+    #background-color: #efd07e;
+    #background-color: #A3B8CC;
+    background-color: #CCE6FF;
+   width: 100%;
+}
+
+.custom {
+    width: 78px !important;
+}
+
+.custom100 {
+    width: 100px !important;
+}
+
+.custom150 {
+    width: 150px !important;
+}
+
+input, textarea, select {
+    color: #fff;
+    background-color : #343A40;
+    border-color: #343A40;
+    border-radius: 5%;
+}
+
+inline{
+  display: inline;
+}
+
+.con-black {
+   background: #343A40;
+}
+
+.btn-black {
+	color: #CCE6FF;
+	text-decoration: none;
+	margin-right: 10px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	
+	background: #343A40; /* #191919 */
+	border: 1px solid #141414;
+	padding: 5px 0px;
+}
+.btn-black:active, .btn-black:focus {
+	box-shadow: 0 0 0 transparent inset;
+  
+}
+
+.btn-black:hover {
+        color: gray;
+}
+
+.btn-red {
+	color: #CCE6FF;
+	text-decoration: none;
+	margin-right: 10px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	
+	background: #406080; /* #191919 */
+	border: 1px solid #141414;
+	padding: 5px 0px;
+}
+.btn-red:active, .btn-red:focus {
+	box-shadow: 0 0 0 transparent inset;
+  
+}
+
+.btn-red:hover {
+        color: lightgray;
+}
+
+.btn-blue {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	
+	background: darkblue; /* #191919 */
+	border: 1px solid #141414;
+	padding: 5px 0px;
+}
+.btn-blue:active, .btn-blue:focus {
+	box-shadow: 0 0 0 transparent inset;
+  
+}
+
+.btn-blue:hover {
+        color: gray;
+}
+
+
+.colorUniform{
+    background-color: #efd07e;
+}
+
+.diploRed{
+    color:red;
+}
+
+.diploBlack{
+    color:black;
+}
+
+table{
+  
+}
+
+.imgRadius {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.population { 
+    background-image: url(../project/ischidados/img/popolazione.png);
+    background-repeat:no-repeat;
+}
+
+.imgBigRadius {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.father {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.pageCenter {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	float: none;
+}
+
+.absolute { position: absolute;}
+.relative { position: relative;}
+
+.imgCommunity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 220px;
+    border-radius: 5%;
+}
+
+.imgElements {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+/*to flip weapons*/
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.checked {
+    background-color: #113b42;
+    border-radius: 5%;
+    width: 25px;
+}
+
+.elencoImg {
+    background-color: #113b42;
+    border-radius: 5%;
+    width: 250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-90 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+tr.noBorder th {
+  border: 0;
+}
+
+.vertigo {
+    transform-style: preserve-3d;
+    transition: perspective 5s;
+}
+
+
+/* Drop-down menu in Ischidados pages */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Division on divs of Ischidados diplay */
+* {
+    box-sizing: border-box;
+}
+
+.box{
+    position: absolute;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* relevant styles */
+.img__wrap {
+    position: relative;
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.colorSelectNeutral {
+    color: red;
+}
+
+.right {
+    float: right;
+}
+/*Human body png*/
+#human {
+    background-image: url("img/body.png");
+    opacity: 1;
+}
+.custom {
+    width: 200px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.ischidados { 
+    background: url(img/Ischidados.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.btn-space {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+.hide{
+            display: none;
+        }
+    
+.father {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.fullwidth {
+ width: 100%;   
+}
+
+.elencoImg {
+    background-color: #113b42;
+    border-radius: 5%;
+    width: 150px;
+    height: auto; 
+}
+
+.pageCenter-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+}
